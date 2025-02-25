@@ -12,4 +12,3 @@ jobs:
       GITHUB: ${{ secrets.GITHUB }}
     with:
       reviewers: 'anmolnagpal'
-      team_reviewers: '/approvers'
