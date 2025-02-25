@@ -11,18 +11,13 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 3
-    assignees:
-    - "clouddrove-ci"
     reviewers:
     - "approvers"
 
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
-    # Add assignees
-    assignees:
-      - "clouddrove-ci"
+      interval: "daily"
     # Add reviewer
     reviewers:
       - "approvers"
@@ -32,10 +27,7 @@ updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/_example/basic" # Location of package manifests
     schedule:
-      interval: "weekly"
-    # Add assignees
-    assignees:
-      - "clouddrove-ci"
+      interval: "daily"
     # Add reviewer
     reviewers:
       - "approvers"
@@ -45,10 +37,7 @@ updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/_example/complete" # Location of package manifests
     schedule:
-      interval: "weekly"
-    # Add assignees
-    assignees:
-      - "clouddrove-ci"
+      interval: "daily"
     # Add reviewer
     reviewers:
       - "approvers"

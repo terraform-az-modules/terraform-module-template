@@ -193,18 +193,8 @@ atlassian-ide-plugin.xml
 
 # TFstste
 *.tfstate*
-
-deployment/_logs/ansible-log.json
-deployment/_logs/ansible-log.log
-deployment/_logs/facts/*
-deployment/_logs/retry/*
-_app/*
-ansible-log.json
 .terraform
 terraform.tfstate
-
 *.tfstate
 *.tfstate.backup
 *.iml
-*.terraform.lock.hcl
-*.lock.hcl
