@@ -11,4 +11,6 @@ jobs:
     secrets:
       GITHUB: ${{ secrets.GITHUB }}
     with:
-      assignees: 'clouddrove-ci'
+      assignees: 'author'
+      reviewers: '/approvers'
+
