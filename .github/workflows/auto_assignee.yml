@@ -12,3 +12,6 @@ jobs:
       GITHUB: ${{ secrets.GITHUB }}
     with:
       assignees: 'author'
+      reviewers: 'anmolnagpal'
+      team_reviewers: '/approvers'
+
